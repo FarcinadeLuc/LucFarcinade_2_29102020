@@ -125,6 +125,98 @@ header a
     padding: 10px;
 }
 
+.triplebox
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxhebergement
+{
+    border: solid 1px black;
+    margin: 10px;
+}
+
+.boxlogements
+{
+    border: solid 1px black;
+    margin: 10px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.logement1-3
+{
+display: flex;
+display: row;
+}
+
+.logement1
+{
+    display:flex;
+    border: solid 3px black;
+    margin: 3px;
+    flex-direction: column;
+    width: 33%;
+}
+
+.logement2
+{
+    display:flex;
+    border: solid 3px black;
+    margin: 3px;
+    flex-direction: column;
+    width: 33%;
+}
+
+.logement3
+{
+    display:flex;
+    border: solid 3px black;
+    margin: 3px;
+    flex-direction: column;
+    width: 33%;
+}
+
+.logement4-6
+{
+    display: flex;
+    display: row;
+}
+
+.logement4
+{
+    display:flex;
+    border: solid 3px black;
+    margin: 3px;
+    flex-direction: column;
+    width: 33%;
+}
+
+.logement5
+{
+    display:flex;
+    border: solid 3px black;
+    margin: 3px;
+    flex-direction: column;
+    width: 33%;
+}
+
+.logement6
+{
+    display:flex;
+    border: solid 3px black;
+    margin: 3px;
+    flex-direction: column;
+    width: 33%;
+}
+
+.boxinfosplus
+{
+    border: solid 1px black;
+    margin: 10px;
+}
+
 .box2
 {
     border: solid 1px black;
