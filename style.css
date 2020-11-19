@@ -70,10 +70,109 @@ body
 header
 {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topheader
+{
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+} 
+
+.search
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxlogo
+{
+    background-color: lightgrey;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.boxtext
+{
+    border: solid 1px lightgrey;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.boxsearch
+{
+    background-color: blue;
+    margin-top: 10px;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:white;
+}
+
+.filtres
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row; 
+}
+
+#filter
+{
+    padding-top: 7px;
+    margin-left: 10px;
+}
+
+.filtre
+{
+    border: solid 1px lightgrey;
+    width: auto;
+    display: flex;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.logofiltre
+{
+    background-color: lightblue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.fas
+{
+ display: flex;
+ 
+}
+
+.filtretext
+{
+    padding:7px;
+}
+
+.info 
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+#logoinfo
+{
+    background-color: grey;
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .login
@@ -118,11 +217,13 @@ header a
 
 .box1
 {
-    border: solid 1px black;
     width: 66.66%;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    background-color: lightgrey;
+    margin-right: 20px;
+    border-radius: 10px;
 }
 
 .triplebox
@@ -133,109 +234,103 @@ header a
 
 .boxhebergement
 {
-    border: solid 1px black;
     margin: 10px;
 }
 
 .boxlogements
 {
-    border: solid 1px black;
     margin: 10px;
     display: flex; 
     flex-direction: column;
 }
 
-.logement1-3
-{
-display: flex;
-display: row;
-}
-
-.logement1
-{
-    display:flex;
-    border: solid 3px black;
-    margin: 3px;
-    flex-direction: column;
-    width: 33%;
-}
-
-.logement2
-{
-    display:flex;
-    border: solid 3px black;
-    margin: 3px;
-    flex-direction: column;
-    width: 33%;
-}
-
-.logement3
-{
-    display:flex;
-    border: solid 3px black;
-    margin: 3px;
-    flex-direction: column;
-    width: 33%;
-}
-
-.logement4-6
+.logements
 {
     display: flex;
-    display: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.logement4
+.logement
 {
     display:flex;
-    border: solid 3px black;
-    margin: 3px;
+    background-color: white;
+    border-radius: 15px;
     flex-direction: column;
-    width: 33%;
+    margin:3px;
+    width: calc(33.33% - 6px);
 }
 
-.logement5
+.logementimage
 {
-    display:flex;
-    border: solid 3px black;
-    margin: 3px;
-    flex-direction: column;
-    width: 33%;
-}
-
-.logement6
-{
-    display:flex;
-    border: solid 3px black;
-    margin: 3px;
-    flex-direction: column;
-    width: 33%;
+    margin-bottom: 5px;
 }
 
 .boxinfosplus
 {
-    border: solid 1px black;
     margin: 10px;
 }
 
 .box2
 {
-    border: solid 1px black;
     width: 33.33%;
     padding: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
 }
 
-/*
-.second
+.populairestitre
 {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 10px;
 }
-*/
+
+.populaireboxs
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.populairebox
+{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+
+.populaireimage
+{
+    margin-bottom: 5px;
+}
+
+.populairetext
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.stars
+{
+    display: flex;
+    flex-direction: row;
+    color: blue;
+}
 
 .box3
 {
-    border: solid 1px black;
     margin-left: 10px;
     margin-right: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
 }
 
 .up 
