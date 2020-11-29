@@ -1,0 +1,46 @@
+@media screen and (max-width: 1024px) {
+    .box3 {
+        flex-direction: column;
+    }
+
+    .simple, .double {
+        width: calc(100% - 60px);
+    }
+
+    .imgactlongue, #Fort img, #Iles img, #Dame img, #Parc img {
+        height: 200px;
+    }
+
+    .box{
+        flex-direction: column-reverse;
+    }
+
+    .box1{
+        background-color: white;
+        width: calc(100% - 50px);
+        margin-left: 10px;
+    }
+
+    .box2{
+        width: calc(100% - 50px);
+    }
+
+    .imagelog{
+        height: 90px;
+    }
+
+    .logements{
+        flex-direction: column;
+    }
+
+    .logement{
+        width: calc(100% - 5px);
+        padding: 0;
+        margin-top: 20px;
+        border: solid 1px #F2F2F2;
+    }
+
+    .boxinfosplus p{
+        margin-top: 15px
+    }
+}

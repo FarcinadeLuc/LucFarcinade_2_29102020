@@ -259,13 +259,6 @@ header a
     margin: 10px;
 }
 
-.boxlogements
-{
-    margin: 10px;
-    display: flex; 
-    flex-direction: column;
-}
-
 .logements
 {
     display: flex;
@@ -398,6 +391,13 @@ h2
     border-top-right-radius: 10px;
 }
 
+.imgact
+{
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px lightgrey;
+    border: solid 1px lightgrey;
+}
+
 #hermann
 {
     width: 100%;
@@ -437,13 +437,9 @@ h2
 .simple
 { 
     margin: 15px;
-    border-radius: 10px;
     width: 25%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 6px 6px 6px lightgrey;
-    border-color: white;
-    border: solid 1px lightgrey;
 }
 
 .double
@@ -457,36 +453,24 @@ h2
 
 #Fort
 {
-    border-radius: 5px;
     height: 65%;
-    box-shadow: 6px 6px 6px lightgrey;
-    border: solid 1px lightgrey;
 }
 
 #Iles
 {
-    border-radius: 10px;
     height: 35%;
-    box-shadow: 6px 6px 6px lightgrey;
     margin-top: 20px;
-    border: solid 1px lightgrey;
 }
 
 #Dame
 {
-    border-radius: 10px;
     height: 55%;
-    box-shadow: 6px 6px 6px lightgrey;
-    border: solid 1px lightgrey;
 }
 
 #Parc
 {
-    border-radius: 10px;
     height: 45%;
-    box-shadow: 6px 6px 6px lightgrey;
     margin-top: 20px;
-    border: solid 1px lightgrey;
 
 }
 
