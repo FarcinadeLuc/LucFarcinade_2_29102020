@@ -64,6 +64,7 @@ body
     width:100%;
     overflow-x:hidden;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .blue
@@ -73,7 +74,7 @@ body
 
 .grey
 {
-    color:#F2F2F2;
+    color:grey;
 }
 
 .bg-grey
@@ -102,13 +103,12 @@ header
 
 #find
 {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .topheader
 {
     width: 100%;
-    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -126,7 +126,6 @@ header
 {
     background-color:var(--bg-grey);
     padding: 10px;
-    margin-left: 10px;
     margin-top: 10px;
     border-top-left-radius: 25%;
     border-bottom-left-radius: 25%;
@@ -150,18 +149,24 @@ header
     color:white;
 }
 
+.boxsearchmobile
+{
+    display:none;
+}
+
 .filtres
 {
     margin-top: 20px;
     display: flex;
     flex-direction: row; 
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 #filter
 {
     padding-top: 7px;
-    margin-left: 10px;
+
 }
 
 .filtre
@@ -216,16 +221,17 @@ header
     border-top: white;
 }
 
-header a
+.up a
 {
     margin-left: 50px;
-    border-style: solid;
     border-width: 1px;
     padding: 20px;
-    border-left-color: white;
-    border-right-color: white;
-    border-bottom-color: white;
     margin-top: 0px;
+    text-decoration: none;
+}
+
+.up a:visited{
+    color: inherit;
 }
 
 .box
@@ -331,13 +337,6 @@ header a
     margin-top: 20px;
 }
 
-
-
-.populaireimage
-{
-
-}
-
 .imagepop
 {
     object-fit: cover;
@@ -398,40 +397,32 @@ h2
     border: solid 1px lightgrey;
 }
 
-#hermann
+.petiteimage
 {
     width: 100%;
-    height: 280px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+#hermann
+{
+    height: 280px;
 }
 
 #hikari
 {
-    width: 100%;
     height: 150px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #wehde
 {
-    width: 100%;
     height: 225px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #paulin
 {
-    width: 100%;
     height: 200px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .simple
@@ -487,6 +478,11 @@ h2
     
 }
 
+.up_mobile
+{
+    display: none;
+}
+
 footer 
 {
     width:100%;
@@ -503,13 +499,13 @@ footer ul{
     margin-top: 30px;
 }
 
-.machin2
+.bandlow
 {
     display: flex;
     margin-left: 30px;
 }
 
-.machin{
+.colonbandlow{
     list-style-type: none;
     padding: 0;
     width: 100%;
@@ -517,7 +513,7 @@ footer ul{
 
 }
 
-.truc
+.textfoot
 {
     margin-bottom: 7px;
 }

@@ -1,4 +1,66 @@
 @media screen and (max-width: 1024px) {
+
+    .topheader{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 100%;
+    }
+   
+    .up{
+        display: none
+    }
+
+    .up_mobile{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #mobilesignup{
+        position: absolute;
+        top: 48px;
+        right: 75px;
+    }
+
+    .mobileheberg{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobileheberg a{
+        width: 50%;
+        text-align: center;
+        border: solid 2px  #0065FC;
+        border-left-color: white;
+        border-right-color: white;
+        border-top-color: white;
+        padding-bottom: 15px;
+    }
+
+    #hebrg{
+        border: solid 3px  #0065FC;
+        border-left-color: white;
+        border-right-color: white;
+        border-top-color: white;
+        padding-bottom: 15px;
+    }
+
+    #actv{
+        border: solid 5px #F2F2F2;
+        border-left-color: white;
+        border-right-color: white;
+        border-top-color: white;
+        padding-bottom: 15px;
+    }
+
+    .filtre{
+        margin-bottom: 8px;
+    }
+
     .box3 {
         flex-direction: column;
     }
@@ -13,6 +75,7 @@
 
     .box{
         flex-direction: column-reverse;
+        padding: 0;
     }
 
     .box1{
@@ -22,7 +85,9 @@
     }
 
     .box2{
-        width: calc(100% - 50px);
+        width: calc(100% - 20px);
+        margin-left: 0;
+        border-radius: 0;
     }
 
     .imagelog{
@@ -42,5 +107,36 @@
 
     .boxinfosplus p{
         margin-top: 15px
+    }
+
+    .machin2{
+        flex-direction: column;
+    }
+
+    .info{
+        margin-bottom: 10px;
+    }
+
+    .boxsearch{
+        display: none;
+    }
+
+    .boxsearchmobile{   
+        background-color: #0065FC;
+         margin-top: 10px;
+        padding: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color:white;
+        display: flex;
+    }
+
+    .up_mobile a:visited {
+        color: inherit;
+    }
+
+    .up_mobile a{
+        text-decoration: none;
+
     }
 }

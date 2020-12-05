@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,14 +17,22 @@
             <header>
                 <div class="topheader">
                     <div class="logo">
-                        <img src="images/logo/Reservia.svg" >
+                        <img src="images/logo/Reservia.svg" alt="Logo Reservia" >
                     </div>
                     <div class="up">
-                        <a>Hébergement</a>
-                        <a>Activités</a>
+                        <a href="#heberg">Hébergement</a>
+                        <a href="#activ">Activités</a>
                         <a class="blue">S'inscrire</a>
                     </div>
+                    <div class="up_mobile">
+                        <a class="blue" id="mobilesignup">S'inscrire</a>
+                        <div class="mobileheberg">
+                            <a href="#heberg" id="hebrg">Hébergement</a>
+                            <a href="#activ" id="actv">Activités</a>
+                        </div>
+                    </div>
                 </div>
+               
                 <div id="find">
                     <p>Trouvez votre hébergement pour des vacances de rêve</p><br>
                     <p>En plein centre ville ou en pleine nature</p>
@@ -39,9 +47,13 @@
                     <div class="boxsearch">
                         <p>Rechercher</p>
                     </div>
+                    <div class="boxsearchmobile">
+                        <i class="fas fa-search"></i>
+                    </div>
                 </div>
                 <div class="filtres">
-                        <p id="filter">Filtres</p>
+                    <p id="filter">Filtres</p>
+                    
                     <div class="filtre">
                         <div class="logofiltre">
                             <i class="fas fa-money-bill-wave blue"></i>
@@ -77,7 +89,7 @@
             <div class="articles">
                 <article class="first">
                     <div class="box">
-                        <div class="box1">
+                        <div class="box1" id="heberg">
                                 <div class="triplebox">
                                     <div class="boxhebergement">
                                         <p>Hébergements à Marseille</p>
@@ -86,7 +98,7 @@
                                         <div class="logements">
                                             <div class="logement">
                                                 <div class="logementimage">
-                                                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="imagelog">
+                                                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="imagelog" alt="Photo de l'Auberge de la Cannebière">
                                                 </div>
                                                     <p>Auberge de la Cannebière</p>
                                                      <p>Nuit à partir de 25€</p>
@@ -96,7 +108,7 @@
                                             </div>
                                             <div class="logement">
                                                 <div class="logementimage">
-                                                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="imagelog">
+                                                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="imagelog" alt="Image de l'Hôtel du port">
                                                 </div>
                                                     <p>Hotêl du port</p>
                                                     <p> Nuit à partir de 52€</p>
@@ -106,7 +118,7 @@
                                             </div>
                                             <div class="logement">
                                                 <div class="logementimage">
-                                                    <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="imagelog">
+                                                    <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="imagelog" alt="Image de l'hôtel de mouettes">
                                                 </div>
                                                     <p>Hôtel Les mouettes</p>
                                                     <p>Nuit à partir de 76€</p>
@@ -116,7 +128,7 @@
                                             </div>
                                             <div class="logement">
                                                 <div class="logementimage">
-                                                    <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="imagelog">
+                                                    <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="imagelog" alt="Image de l'Hôtel de la mer">
                                                 </div>
                                                     <p>Hôtel de la mer</p>
                                                     <p>Nuit à partir de 46€</p>
@@ -126,7 +138,7 @@
                                             </div>
                                             <div class="logement">
                                                 <div class="logementimage">
-                                                    <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="imagelog">
+                                                    <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="imagelog" alt="Image de l'Auberge Le panier">
                                                 </div>
                                                     <p>Auberge Le Panier</p>
                                                     <p>Nuit à partir de 23€</p>
@@ -136,7 +148,7 @@
                                             </div>
                                             <div class="logement">
                                                 <div class="logementimage">
-                                                    <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="imagelog">
+                                                    <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="imagelog" alt="Image de l'Hôtel chez Amina">
                                                 </div>
                                                     <p>Hôtel chez Amina</p>
                                                     <p>Nuit à partir de 96€</p>
@@ -159,7 +171,7 @@
                             <div class="populaireboxs">
                                 <div class="populairebox">
                                     <div class="populaireimage">
-                                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="imagepop">
+                                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="imagepop" alt="Image de l'Hôtel Le soleil du matin">
                                     </div>
                                     <div class="populairetext">
                                         <p>Hôtel Le Soleil du matin</p>
@@ -171,7 +183,7 @@
                                 </div>
                                 <div class="populairebox">
                                     <div class="populaireimage">
-                                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="imagepop">
+                                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="imagepop" alt="Image d'au coeur de l'eau Chambres d'hôtes">
                                     </div>
                                     <div class="populairetext">
                                         <p>Au coeur de l'eau Chambres d'hôtes</p>
@@ -183,7 +195,7 @@
                                 </div>
                                 <div class="populairebox">
                                     <div class="populaireimage">
-                                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="imagepop">
+                                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="imagepop" alt="Image de l'Hôtel Tout bleu et blanc">
                                     </div>
                                     <div class="populairetext">
                                         <p>Hôtel Tout bleu et Blanc</p>
@@ -199,36 +211,36 @@
                 </article>
                 <article class="second">
                         <h2>Activités à Marseille</h2>
-                    <div class="box3">
+                    <div class="box3" id="activ">
                             <div class="simple imgact">
                                 <div>
-                                    <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="imgactlongue">
+                                    <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="imgactlongue" alt="Image du vieux port">
                                 </div>
                                 <p class="acttext">Vieux Port</p>
                             </div>
                             <div class="double">
                                 <div id="Fort" class="imgact">
-                                    <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" id="hermann">
+                                    <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="petiteimage"  id="hermann" alt="Image du Fort de Pomègues">
                                     <p class="acttext">Fort de Pomègues</p>
                                 </div>
                                 <div id="Iles" class="imgact">
-                                    <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" id="hikari">
+                                    <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="petiteimage"  id="hikari" alt="Image des ïles du Frioul">
                                     <p class="acttext">Îles du Frioul</p>
                                 </div>
                             </div>
                             <div class="simple imgact">
                                 <div>
-                                    <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="imgactlongue">
+                                    <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="imgactlongue" alt="Image du Parc National des Calanques">
                                 </div>
                                 <p class="acttext">Parc National des Calanques</p>
                             </div>
                             <div class="double">
                                 <div id="Dame" class="imgact">
-                                    <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" id="wehde"> 
+                                    <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="petiteimage"  id="wehde" alt="Image de Notre-Dame-de-la-Garde"> 
                                     <p class="acttext">Notre-Dame-de-la-Garde</p>
                                 </div>
                                 <div id="Parc" class="imgact">
-                                    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" id="paulin">
+                                    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"  class="petiteimage" id="paulin" alt="Image du Parc Longchamp">
                                     <p class="acttext">Parc Longchamp</p>
                                 </div>
                             </div>
@@ -237,22 +249,22 @@
             </div>
             <!--Le footer est fini, juste à ajuster des choses-->
             <footer class="bg-grey">
-                <div class="machin2">
-                    <ul class="machin">
+                <div class="bandlow">
+                    <ul class="colonbandlow">
                         <li class="titre">A propos</li>
-                        <li class="truc">Fonctionnement du site</li>
-                        <li class="truc">Conditions générales de vente</li>
-                        <li class="truc">Données et confidentialité</li>
+                        <li class="textfoot">Fonctionnement du site</li>
+                        <li class="textfoot">Conditions générales de vente</li>
+                        <li class="textfoot">Données et confidentialité</li>
                     </ul>
-                    <ul class="machin">
+                    <ul class="colonbandlow">
                         <li class="titre">Nos hébégerments</li>
-                        <li class="truc">Charte qualité</li>
-                        <li class="truc">Soumettre votre hôtel</li>
+                        <li class="textfoot">Charte qualité</li>
+                        <li class="textfoot">Soumettre votre hôtel</li>
                     </ul>
-                    <ul class="machin">
+                    <ul class="colonbandlow">
                         <li class="titre">Assistance</li>
-                        <li class="truc">Centre d'aide</li>
-                        <li class="truc">Nous contacter</li>
+                        <li class="textfoot">Centre d'aide</li>
+                        <li class="textfoot">Nous contacter</li>
                     </ul>
                 </div>
             </footer>
