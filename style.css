@@ -57,7 +57,7 @@ table {
 }
 
 
-
+/* Settings */
 
 body
 {
@@ -88,6 +88,8 @@ body
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* HEADER */
 
 header
 {
@@ -233,6 +235,21 @@ header
 .up a:visited{
     color: inherit;
 }
+
+.up 
+{
+    display: flex;
+    margin-right: 50px;
+    
+}
+
+.up_mobile
+{
+    display: none;
+}
+
+
+/* ARTICLES */
 
 .box
 {
@@ -466,17 +483,9 @@ h2
     font-weight: bold;
 }
 
-.up 
-{
-    display: flex;
-    margin-right: 50px;
-    
-}
 
-.up_mobile
-{
-    display: none;
-}
+
+/* FOOTER */
 
 footer 
 {

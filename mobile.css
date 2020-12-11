@@ -1,5 +1,6 @@
 @media screen and (max-width: 1024px) {
 
+ /* HEADER */
     .topheader{
         display: flex;
         flex-direction: column;
@@ -39,6 +40,7 @@
         border-right-color: white;
         border-top-color: white;
         padding-bottom: 15px;
+        color: black;
     }
 
     #hebrg{
@@ -60,6 +62,34 @@
     .filtre{
         margin-bottom: 8px;
     }
+
+    .boxsearch{
+        display: none;
+    }
+
+    .boxsearchmobile{   
+        background-color: #0065FC;
+         margin-top: 10px;
+        padding: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color:white;
+        display: flex;
+    }
+
+    .up_mobile a:visited {
+        color: inherit;
+    }
+
+    .up_mobile a{
+        text-decoration: none;
+    }
+    
+    .info{
+        margin-bottom: 10px;
+    }
+
+/* Hebergement, Activités */
 
     .box3 {
         flex-direction: column;
@@ -109,34 +139,13 @@
         margin-top: 15px
     }
 
-    .machin2{
+    /* FOOTER */
+
+    .bandlow{
         flex-direction: column;
     }
 
-    .info{
-        margin-bottom: 10px;
-    }
+  
 
-    .boxsearch{
-        display: none;
-    }
 
-    .boxsearchmobile{   
-        background-color: #0065FC;
-         margin-top: 10px;
-        padding: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        color:white;
-        display: flex;
-    }
-
-    .up_mobile a:visited {
-        color: inherit;
-    }
-
-    .up_mobile a{
-        text-decoration: none;
-
-    }
 }
