@@ -108,6 +108,11 @@ header
     margin-left: 20px;
 }
 
+#textfind
+{
+    font-weight: bold;
+}
+
 .topheader
 {
     width: 100%;
@@ -197,6 +202,7 @@ header
 .filtretext
 {
     padding:7px;
+    font-weight: bold;
 }
 
 .info 
@@ -243,6 +249,12 @@ header
     
 }
 
+#boxheberg
+{
+    border: solid 2px white;
+    border-top-color: #0065FC;
+}
+
 .up_mobile
 {
     display: none;
@@ -280,6 +292,8 @@ header
 .boxhebergement
 {
     margin: 10px;
+    font-weight: bold;
+    font-size: large;
 }
 
 .logements
@@ -304,6 +318,11 @@ header
 .logementimage
 {
     margin-bottom: 5px;
+}
+
+.logetext
+{
+    margin-bottom: 10px;
 }
 
 .imagelog
@@ -337,6 +356,8 @@ header
     justify-content: space-between;
     margin-top: 15px;
     margin-left: 10px;
+    font-weight: bold;
+    font-size: large;
 }
 
 .populaireboxs
@@ -372,6 +393,18 @@ header
     flex-direction: column;
     margin-left: 15px;
     margin-top: 10px;
+ 
+}
+
+.poptext
+{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.poptextstar
+{
+    margin-bottom: 55px;
 }
 
 .stars
